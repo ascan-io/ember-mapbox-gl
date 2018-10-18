@@ -1,0 +1,14 @@
+{
+  "doc-staging-2": {
+    "path": "versions/doc-staging-2",
+    "name": "doc-staging-2",
+    "sha": "01a6b4b08f7a70773d4ae1d908fad368319b5406",
+    "tag": "doc-staging-2"
+  },
+  "-latest": {
+    "path": "",
+    "name": "Latest",
+    "sha": "01a6b4b08f7a70773d4ae1d908fad368319b5406",
+    "tag": "doc-staging-2"
+  }
+}
