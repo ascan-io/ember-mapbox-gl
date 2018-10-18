@@ -5,7 +5,7 @@
   "keywords": [
     "ember-addon"
   ],
-  "repository": "https://github.com/kturney/ember-mapbox-gl",
+  "repository": "https://github.com/allthesignals/ember-mapbox-gl",
   "license": "MIT",
   "author": "Kyle Turney <turney.kyle@gmail.com>",
   "directories": {
