@@ -5,8 +5,9 @@ import { getOwner } from '@ember/application';
 import { bind, next, scheduleOnce } from '@ember/runloop';
 import Component from '@ember/component';
 import layout from '../templates/components/mapbox-gl';
-import MapboxGl from 'mapbox-gl';
 import noop from 'ember-mapbox-gl/utils/noop';
+
+const MapboxGl = mapboxgl;
 
 /**
   Component that creates a new [mapbox-gl-js instance](https://www.mapbox.com/mapbox-gl-js/api/#map):

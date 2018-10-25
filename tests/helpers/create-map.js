@@ -1,7 +1,8 @@
 import { Promise } from 'rsvp';
 import Config from '../../config/environment';
-import MapboxGl from 'mapbox-gl';
 import QUnit from 'qunit';
+
+const MapboxGl = mapboxgl;
 
 MapboxGl.accessToken = Config['mapbox-gl'].accessToken;
 

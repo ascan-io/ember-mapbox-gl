@@ -4,7 +4,8 @@ import { getProperties, get } from '@ember/object';
 import { bind } from '@ember/runloop';
 import Component from '@ember/component';
 import layout from '../templates/components/mapbox-gl-popup';
-import MapboxGl from 'mapbox-gl';
+
+const MapboxGl = mapboxgl;
 
 /**
   Adds a [popup](https://www.mapbox.com/mapbox-gl-js/api/#popup) to the map.

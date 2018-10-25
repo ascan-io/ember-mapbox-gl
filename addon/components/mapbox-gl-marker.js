@@ -5,7 +5,8 @@ import { getProperties, get, set } from '@ember/object';
 import { run } from '@ember/runloop';
 import Component from '@ember/component';
 import layout from '../templates/components/mapbox-gl-marker';
-import MapboxGl from 'mapbox-gl';
+
+const MapboxGl = mapboxgl;
 
 /**
  * A utility that brokers HTTP requests...
